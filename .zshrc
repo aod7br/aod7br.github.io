@@ -95,8 +95,6 @@ export TERM=xterm-256color
 
 export PATH="/home/aod/node_modules/.bin/:$PATH:/home/aod/anaconda3/bin/"
 
-export SLACK_TOKEN=xoxp-10082527972-130612294772-407769882885-fbca2b22a205ab07ba15ed2911c3b13c
-
 alias beep='paplay /usr/share/sounds/ubuntu/notifications/Rhodes.ogg'
 
 export devops="devops.encircalabs.services"
