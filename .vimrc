@@ -54,6 +54,15 @@ set hlsearch
 set paste
 set laststatus=2
 
+au BufNewFile,BufRead *.yml
+set tabstop=2
+set softtabstop=2
+set sw=2
+set shiftwidth=2
+set laststatus=2
+
+
+
 map <S-F> :set hlsearch! hlsearch?<CR>
 map <C-f> * <CR>
 map <C-o> :bd! <CR>
