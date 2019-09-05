@@ -36,7 +36,7 @@ color peachpuff
 let python_highlight_all=1
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
-au BufNewFile,BufRead *.py
+au BufNewFile,BufRead *.py silent!
 set autoindent
 set fileformat=unix
 set foldmethod=indent
@@ -54,7 +54,7 @@ set hlsearch
 set paste
 set laststatus=2
 
-au BufNewFile,BufRead *.yml
+au BufNewFile,BufRead *.yml silent!
 set tabstop=2
 set softtabstop=2
 set sw=2
